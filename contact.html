@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Webase : Contact us</title>
+
+    <!-- Page Favicon goes here -->
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- Fonts Reference From https://fonts.google.com/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font awesome font cdn -->
+    <script src="https://kit.fontawesome.com/7057d2cbd6.js" crossorigin="anonymous"></script>
+
+    <!-- CSS goes here -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    
+</head>
+<body id="contact">
+  
+    <!-- Header Starts here-->
+    <header>
+      <a href="index.html" class="page_logo">Webase</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      </nav>
+    </header>
+
+    <!-- Hero section starts here -->
+    <div id="sec_hero">
+    	<div class="hero_inner">
+      	<h1>Happy to Help!!</h1>
+	      <h5>We’d love to hear from you! Send us a message or give us a call.</h5>
+      </div>
+    </div>
+
+    <!-- Main section starts here-->
+    <main role= "main">
+
+      <section id="sec_contact" class="paddingtop50 paddingbottom50">
+        <div class="mid_section">
+          <div class="mid_row">
+            <div class="contact_text">
+              <h3>What Set Us Apart</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="contact_inner">
+                <div class="contact_inner_box">
+                  <h5>Address</h5>
+                  <p>72880 Broadway, <span>New York 11772</span></p>
+                </div>
+                <div class="contact_inner_box">
+                  <h5>Working Hours</h5>
+                  <p>Monday to Friday: 9AM - 8PM<span>Week-End: 10AM - 5PM</span></p>
+                </div>
+                <div class="contact_inner_box">
+                  <h5>Contact</h5>
+                  <p><a href="mailto:email@webase.COM">email@webase.COM</a><a href="tel:+88 (0) 101 0000 000">+88 (0) 101 0000 000</a></p>
+                </div>
+                <div class="contact_inner_box">
+                  <h5>Social Media</h5>
+                  <ul class="social">
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter-square "></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-dribbble-square "></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-instagram-square "></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="sec_map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2897.740412890402!2d-80.44143418503228!3d43.424250075224194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b8adeeabcd437%3A0x7554c8c56ed5c681!2sCF%20Fairview%20Park!5e0!3m2!1sen!2sca!4v1639677033150!5m2!1sen!2sca" width="100%" height="400" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>    
+      </section>
+
+      <!-- Form Section starts here -->
+      <div id="sec_form" class="paddingtop50 paddingbottom50 text_center">
+        <div class="mid_section">
+          <h2 class="page_title">Get In Touch</h2>
+          <form method="post" action="https://webdevbasics.net/scripts/pacific.php" class="paddingtop50">
+            <div class="form_area">
+              <label for="myFName">First Name*</label>
+              <input type="text" name="myFName">
+            </div>
+            <div class="form_area">
+              <label for="myLName">Last Name*</label>
+              <input type="text" name="myLName">
+            </div>
+            <div class="form_area">
+              <label for="myEmail">E-mail*</label>
+              <input type="email" name="myEmail">
+            </div>
+            <div class="form_area">
+              <label for="myPhone">Phone*</label>
+              <input type="text" name="myPhone">
+            </div>
+            <div class="form_area">
+              <label for="myDate">Arrival date</label>
+              <input type="date" name="myDate">
+            </div>
+            <div class="form_area">
+              <label for="myNights">Nights</label>
+              <input type="number" name="myNights" min="1" max="14">
+            </div>
+            <div class="form_area_last">
+              <label for="myComments">Comments*</label>
+              <textarea name="myComments" rows="3" cols="20"></textarea>
+            </div>
+            <div class="form_btn text_center">
+              <input type="Submit" id="mySubmit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer  -->
+    <footer>
+      <div class="mid_section"> 
+        <ul>
+          <li><a href="#" target="_blank"><i class="fab fa-facebook-f icon "></i></a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-twitter icon "></i></a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-linkedin-in icon "></i></a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-dribbble icon "></i></a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-instagram icon "></i></a></li>
+        </ul>
+        <p>&copy; 2021 webase.com - All Rights Reserved.</p>
+        <p>website Maintain by Parthvi,Samarth,Suparno and Akshay.</p>
+      </div>
+    </footer>
+</body>
+</html>

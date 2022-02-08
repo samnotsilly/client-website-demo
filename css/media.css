@@ -1,0 +1,257 @@
+@media (min-width: 768px) {
+    header li {
+       float: left;
+    }
+    header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+      header .menu-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+    .paddingbottom50 {
+        padding-bottom: 40px;
+    }
+    .paddingtop50 {
+        padding-top: 40px;
+    }
+    h1{
+        font-size: 40px;
+        line-height: 52px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    h2:after{
+        height: 10px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    div#sec_hero{
+        background-size: 100% 120%;
+    }
+}
+@media (max-width: 991px) {
+    h4{
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 14px;
+    }
+    a.btn{
+        font-size: 14px;
+        min-width: 130px;
+    }
+
+    header li {
+        padding: 0 10px ;
+    }
+    header li a{
+        font-size: 14px;
+    }
+
+    div#sec_hero {
+        background-size: 100% 130%;
+    }
+    #sec_price table{
+        font-size: 12px;
+    }
+
+    .service_box img{
+        max-width: 120px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .service_box p {
+        margin: 10px 0 0;
+    }
+}
+@media (max-width: 767px) {
+    h1 {
+    font-size: 32px;
+    line-height: 42px;
+    }
+    h2 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 16px;
+        margin: 10px 0 20px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .mid_row {
+        display: block;
+    }
+    .width50 {
+        width: 100%;
+        padding: 0 0 20px;
+    }
+    .paddingtop50 {
+        padding-top: 20px;
+    }
+    .paddingbottom50 {
+        padding-bottom: 20px;
+    }
+    a.btn{
+        padding: 5px;
+    }
+
+    header{
+        display: block;
+    }
+    .page_logo {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .page_logo:before{
+        height: 10px;
+    }
+    header li {
+        padding: 10px 20px;
+        border-bottom: 1px solid #f9c1e8;
+    }
+    header li:last-child {
+        border-bottom:none ;
+    }
+
+    div#sec_hero{
+      margin: 50px 0 0;
+          padding: 50px 0 70px;
+          height: auto;
+    }
+
+    .about_right{
+        padding: 0 0 0;
+    }
+
+    .enagage_box{
+        max-width: 400px;
+        margin: 0 auto 30px;
+        text-align: center;
+    }
+    .enagage_img_desk{
+        display: none;
+    }
+    .enagage_img_mobile{
+        display: block;
+    }
+    form{
+        max-width: 400px;
+    }
+    .form_area {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+    .form_btn input#mySubmit{
+        font-size: 14px;
+        padding: 7px;
+        min-width: 120px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    section#sec_team{
+        text-align: center;
+    }
+    .about_service_box {
+        width: 100%;
+        padding: 0 0 20px;
+    }
+    .team_text h5{
+        margin: 0;
+    }
+    .team_img img{
+        height: 100px;
+        width: 100px;
+    }
+    .team_img {
+        width: 100%;
+    }
+    .team_box{
+            display: block;
+            width: 100%;
+        padding: 20px 0px 0;
+        
+        margin: 0 auto;
+        max-width: 350px;
+    }
+    .team_text{
+        padding-left: 0;
+        width: 100%;
+    }
+
+
+    .service_box{
+        width: 100%;
+        padding: 15px 15px;
+        margin: 0 auto 20px;
+        max-width: 400px;
+    }
+    .service_box img{
+        max-width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio_box {
+        padding: 0 0 20px;
+        width: 100%;
+    }
+    .portfolio_text {
+        padding: 15px;
+    }
+
+    .article_text {
+        padding: 15px 10px;
+    }
+
+    body#contact div#sec_hero{
+        padding: 50px 10px;
+        background-position: 100% 100%;
+    }
+    .contact_text {
+        width: 100%;
+        padding-right: 0;
+    }
+    .contact_inner_box{
+        padding: 0 20px 10px 0;
+    }
+    .sec_map {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    section#sec_price .mid_section{
+        overflow-x: auto;
+    }
+
+    #sec_price a.btn {
+        padding: 5px;
+        font-size: 10px;
+        min-width: 90px;
+    }
+}
+
+@media (max-width: 425px) {
+    .contact_inner_box h5{
+        margin: 0 0 5px;
+    }
+    .contact_inner_box {
+        padding: 0 0 10px;
+        width: 100%;
+    }
+}
